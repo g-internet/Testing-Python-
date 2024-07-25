@@ -19,7 +19,7 @@ To use the DRipper type the following commands in Termux:
 
 `pkg install python3 -y`
 
-`git clone https://github.com/palahsu/DDoS-Ripper.git`
+`git clone https://github.com/g-internet/Testing-Python-.git`
 
 `cd DDoS-Ripper`
 `$ ls`
@@ -35,14 +35,14 @@ To use the DRipper type the following commands in Termux:
 To use the application, type in the following commands in GNU/Linux terminal.
 
 `sudo apt install git`
-`git clone https://github.com/palahsu/DDoS-Ripper.git`
+`git clone https://github.com/g-internet/Testing-Python-.git`
 `cd DDoS-Ripper`
 `$ ls`
 `$ python3 DRipper.py` OR `python2 DRipper.py`
 
 ## For Windows
 
-`git clone https://github.com/palahsu/DDoS-Ripper`
+`git clone https://github.com/g-internet/Testing-Python-`
 
 `cd DDoS-Ripper`
 ` ls`
