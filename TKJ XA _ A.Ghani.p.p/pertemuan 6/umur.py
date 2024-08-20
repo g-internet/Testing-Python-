@@ -16,10 +16,18 @@ umur = int(input("masukan umur anda"))
 
 
 print("sedang memproses Mohon di tunggu")
+time.sleep(2)
+from tqdm import tqdm
+import time
 
-time.sleep(5)
-print(("Getting Information"))
-time.sleep(3)
+
+for i in tqdm (range (250), 
+			desc="Loading…", 
+			ascii=False, ncols=75):
+	time.sleep(0.01)
+	
+print("Complete.")
+
 
 if umur < 13:
     print("umur anda dibawah 13 tahun, anda dilarang masuk")
