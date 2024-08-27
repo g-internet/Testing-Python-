@@ -8,8 +8,8 @@ time.sleep(2)
 num2 = int(input("Masukan perhitungan akhir anda: "))
 time.sleep(2)
 
-for i in tqdm(range(2500), desc="Loading…", ascii=False, ncols=75):
-    time.sleep(0.01)
+for i in tqdm(range(1000), desc="Loading…", ascii=True, ncols=75):
+    time.sleep(0.0001)
     
 print("Menampilkan hasil")
 

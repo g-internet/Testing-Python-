@@ -1,4 +1,6 @@
-nilai = 80
+import time
+
+nilai = (input("masukan nilai anda: "))
 
 if nilai >= 91 and nilai <= 100:
     print("nyontek lu ye")
