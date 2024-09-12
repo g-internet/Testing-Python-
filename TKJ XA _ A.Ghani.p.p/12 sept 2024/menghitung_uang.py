@@ -55,6 +55,19 @@ for i in range(a):
     
     total = (a1*100)+(a2*500)+(a10*1000)+(a5*5000)+(a6*10000)+(a7*20000)+(a8*50000)+(a9*100000)
     
+    time.sleep(2)
+
+
+    for i in tqdm (range (250), 
+                desc="Memproses", 
+                ascii=False, ncols=75):
+        time.sleep(0.01)
+        
+    print("")
+
+	
+    
+    
     if total >= harga:
         kembalian = total - harga
         print(f"Pembayaran berhasil! Anda membeli {nama_barang} seharga Rp {harga:,}")
