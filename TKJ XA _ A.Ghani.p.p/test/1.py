@@ -1,6 +1,4 @@
-a = 6
+a = int(input("masukan nomor: "))
+b = int(input("masukan nomor: "))
 
-if a > 8:
-    print("diatas 8")
-else:
-    print("salah bjir")
+print (a + b)
