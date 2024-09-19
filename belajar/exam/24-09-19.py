@@ -8,9 +8,9 @@ penonton = int(input("Jumlah penonton: "))
 
 for i in range(penonton):
     print(f"\nPenonton Ke {i+1}:")
-    tiket_anak = int(input("Masukkan jumlah tiket anak: "))
-    tiket_dewasa = int(input("Masukkan jumlah tiket dewasa: "))
-    tiket_lansia = int(input("Masukkan jumlah tiket lansia: "))
+    tiket_anak = int(input("Masukkan jumlah tiket anak (di bawah 12): "))
+    tiket_dewasa = int(input("Masukkan jumlah tiket dewasa (12 - 60): "))
+    tiket_lansia = int(input("Masukkan jumlah tiket lansia (diatas 60): "))
 
     total_harga_tiket = (tiket_anak * harga_tiket_anak) + (tiket_dewasa * harga_tiket_dewasa) + (tiket_lansia * harga_tiket_lansia)
 
