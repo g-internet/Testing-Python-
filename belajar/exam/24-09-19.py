@@ -1,29 +1,17 @@
 import time
-from tqdm import tqdm
+print("selamat datang di bisokop")
 
-print("halo selamat datang di Penghitung Nilai Cepat")
+harga_tiket_anak = 30000
+harga_tiket_dewasa = 50000
+harga_tiket_lansia = 35000
 
-time.sleep(2)
-siswa = int(input("masukan jumlah siswa: "))
-time.sleep(1)
+penonton = int(input("jumlah penonton: "))
 
-print("isi data kamu dengan benar ya")
 
-for i in range(siswa):
-    
-    nama_siswa = (input("masukan nama kamu!: "))
-    
-    tugas1 = float(input("masukan nilai tugas satu anda ya: "))
-    tugas2 = float(input("masukan nilai tugas ke dua anda: "))
-    tugas3 = float(input("masukan nilai tugas ke tiga anda: "))
-
-    jumlah_nilai = tugas1 + tugas2 + tugas3
-
-    nilai_rata = jumlah_nilai / 3
-    
-    if nilai_rata < 50:
-        print(f"nilai rata-rata kamu itu {nilai_rata},maaf {nama_siswa} kamu belum lulus sabar ya!")
-    elif nilai_rata >= 50 and nilai_rata < 70:
-        print(f"nilai rata-rata kamu itu {nilai_rata}, waduh {nama_siswa} kalau kamu mau lulus kamu hrus ada perbaikan nilai dulu nih")
-    else:
-        print(f"nilai rata-rata kamu itu {nilai_rata}, Selamat ya {nama_siswa} Kamu sudah lulus")
+for i in range(penonton):
+    tiket_anak = int(input("masukan jumlah tiket anak: "))
+    tiket_dewasa = int(input("masukan jumlah tiket dewasa: "))
+    tiket_lansia = int(input("masukan jumlah tiket lansia: "))
+    total_harga_tiket = (tiket_anak * harga_tiket_anak) + (tiket_dewasa * harga_tiket_dewasa) + (tiket_lansia * harga_tiket_lansia)
+    print(f"kamu membeli tiket anak sebanyak {tiket_anak} dengan harga {harga_tiket_anak} , tiket dewasa sebanyak {tiket_dewasa} dengan harga {harga_tiket_dewasa}, tiket lansia sebanyak {tiket_lansia} dengan harga {harga_tiket_lansia}")
+    print(f"total kamu membeli itu {total_harga_tiket}")
